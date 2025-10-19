@@ -10,7 +10,7 @@ export function Contacto() {
   return (
     // CAMBIO 1: Añadir 'relative' y 'overflow-hidden' a la sección principal
     <section
-      id="problemas-resueltos"
+      id="contacto"
       className="relative w-full py-20 md:py-28 bg-[var(--background)] px-4 overflow-hidden"
     >
       {/* CAMBIO 2: Insertar los dos divs de resplandor */}
@@ -24,7 +24,7 @@ export function Contacto() {
         <h2 className="text-4xl md:text-5xl font-extrabold text-center text-[var(--foreground)] mb-4">
           Ponte en Contacto
         </h2>
-        <p className="text-lg text-[var(--muted-foreground)] mb-12">
+        <p className="text-lg text-[var(--muted-foreground)] mb-12 text-center">
           ¿Tienes una pregunta o un proyecto en mente? ¡Hablemos!
         </p>
         <form className="space-y-6 text-left">
@@ -56,7 +56,7 @@ export function Contacto() {
             </Button>
           </div>
         </form>
-        <div className="mt-16">
+        <div className="mt-16 text-center">
           <p className="text-lg text-[var(--muted-foreground)] mb-4">
             Síguenos en nuestras redes
           </p>

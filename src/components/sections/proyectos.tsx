@@ -54,7 +54,7 @@ export function Proyectos() {
   return (
     // CAMBIO 1: Añadir 'relative' y 'overflow-hidden' a la sección principal
     <section
-      id="problemas-resueltos"
+      id="proyectos"
       className="relative w-full py-20 md:py-28 bg-[var(--background)] px-4 overflow-hidden"
     >
       {/* CAMBIO 2: Insertar los dos divs de resplandor */}
